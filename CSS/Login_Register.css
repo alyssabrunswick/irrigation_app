@@ -1,0 +1,78 @@
+@charset "utf-8";
+/*=============================================Login and Registration CSS File=================================================*/
+
+body {
+	width: 100%;	
+	margin: 0px;
+	}
+	
+div#main{
+	width: 240px;
+	margin: 0px auto;
+	margin-top: 5px;
+	text-align: center;
+	color:#FFF;
+	font-family: Helvetica, Arial, sans-serif;
+	border:1px solid #000;
+	padding-bottom:1px;
+	font-size:10px;
+	text-decoration:none;
+	font-weight:normal;
+	background-position: top;
+	border-radius:10px;
+	background-image:url(../Images/LoginCreate_background_lighter.png);
+	min-height:400px;
+}
+.logo {
+	width: 95%;
+	margin-top: 20px;
+	}
+
+
+/*=============================================================Button Information================================================*/
+.loginbtn {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.00005, #ededed), color-stop(.4, #02450E) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #02450E 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#8bd68b');
+	background-color:#ededed;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius: 10px;
+	border: 1px solid #444;
+	display:inline-block;
+	color:#FFF;
+	font-family:Helvetica;
+	font-size:15px;
+	font-weight:bold;
+	padding: 5px 5px 5px 5px;
+	height: 20px;
+	width: 70%;
+	text-decoration:none;
+}.loginbtn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8bd68b), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #8bd68b 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8bd68b', endColorstr='#ededed');
+	background-color:#8bd68b;
+}.loginbtn:active {
+	position:relative;
+	top:1px;
+}
+/*===============================================Initial Value=======================================================*/
+.initial{
+	color:#999;
+	}
+	
+a {
+	color: #CFF;
+}
+
+td {
+	font-size: 13px;
+}
+
+.footer, .push{
+	height: 50px;
+}
